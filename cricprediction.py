@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder
 from mlxtend.feature_selection import SequentialFeatureSelector as sfs
 
 # Read data
-df = pd.read_csv('C:\\Users\\Hari Debl\\Desktop\\cric\\Data\\Match.csv',nrows=20 )
+df = pd.read_csv('Match.csv',nrows=20 )
 
 print(df.head())
 print(df.shape)
